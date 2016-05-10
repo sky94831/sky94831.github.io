@@ -112,7 +112,10 @@ body {
     margin: 20px 0;
     line-height: 1.28;
 }
-
+.left .img{
+    text-align:center;
+    text-indent:0;
+}
 .left p:first-child {
     color: #888;
     font-size: 12px;
@@ -228,8 +231,12 @@ div.news-list p.topic-nav {
 
 .recommend {
     margin: 15px 0;
+    color:black;
 }
-
+.recommend a{
+    color:black;
+    text-decoration: none;
+}
 
 /*页脚样式*/
 
@@ -250,4 +257,6 @@ div.news-list p.topic-nav {
 .foot a {
     color: #888;
     text-decoration: none;
+}
+
 }
